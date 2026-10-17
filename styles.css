@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+
+/* ==============================
+   CONFIGURACIÓN GENERAL
+   ============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #0D1B2A;
+    color: #F5EDD8;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', serif;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    color: #8FA0B5;
+}
+
+.linear-gradient {
+    background: linear-gradient(90deg, transparent, #C9A84C, transparent);
+    height: 1px;
+    width: 100%;
+}
